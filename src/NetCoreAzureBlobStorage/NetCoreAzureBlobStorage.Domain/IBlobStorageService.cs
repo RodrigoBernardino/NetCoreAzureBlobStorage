@@ -34,7 +34,7 @@ namespace NetCoreAzureBlobStorage
         /// </summary>
         /// <param name="fileUrl">The file's Azure Blob Storage URL.</param>
         /// <param name="urlLifeTimeInMinutes">The shared URL life time. After this time the URL will not work anymore.</param>
-        /// <returns>The file Stream.</returns>
+        /// <returns>The shared URL.</returns>
         string DownloadFileToAccessSharedUrl(string fileUrl, int urlLifeTimeInMinutes);
 
         /// <summary>

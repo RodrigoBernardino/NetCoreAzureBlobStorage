@@ -21,13 +21,13 @@ namespace NetCoreAzureBlobStorage.Tests
         [SetUp]
         public void SetUp()
         {
-            string connectionStringOne = "DefaultEndpointsProtocol=https;AccountName=sotreqlinkblob;AccountKey=6f0fR60treYCMgrnKZC7mi2RvoeWnTuJ7p/o1RVWMwfsWTtxQtUHlQytaDqzpU/CyPjSLmAyS7UQlH1s45/KMw==;EndpointSuffix=core.windows.net";
-            string connectionStringTwo = "DefaultEndpointsProtocol=https;AccountName=sotreqlinkblob;AccountKey=g4GDGbXRFmK75tlkoIDenvjie4kHyztk4UamFYHkjozqpzPvtFNv+M3ydxc/1Ppg2eLM0Xn/3i7mFxEJig62ug==;EndpointSuffix=core.windows.net";
+            string connectionStringOne = "AzureBlobStorageConnStringOne";
+            string optionalConnectionStringTwo = "AzureBlobStorageConnStringTwo";
 
             ServiceCollection services = new ServiceCollection();
 
             services.AddSingleton<IBlobStorageService>(
-                new BlobStorageService(connectionStringOne, connectionStringTwo));
+                new BlobStorageService(connectionStringOne, optionalConnectionStringTwo));
 
             ServiceProvider serviceProvider = services.BuildServiceProvider();
 
