@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAzureBlobStorage.Domain", "NetCoreAzureBlobStorage.Domain\NetCoreAzureBlobStorage.Domain.csproj", "{0E781DF1-E38E-4FCD-A368-F5CAA2D1BF23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAzureBlobStorage.Tests", "NetCoreAzureBlobStorage.Tests\NetCoreAzureBlobStorage.Tests.csproj", "{FAB0C359-1518-4EDC-8147-076ADD0CCF90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E781DF1-E38E-4FCD-A368-F5CAA2D1BF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E781DF1-E38E-4FCD-A368-F5CAA2D1BF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E781DF1-E38E-4FCD-A368-F5CAA2D1BF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E781DF1-E38E-4FCD-A368-F5CAA2D1BF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB0C359-1518-4EDC-8147-076ADD0CCF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB0C359-1518-4EDC-8147-076ADD0CCF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB0C359-1518-4EDC-8147-076ADD0CCF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB0C359-1518-4EDC-8147-076ADD0CCF90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15C36775-EAFC-4057-ABC2-DEF8776D36B4}
+	EndGlobalSection
+EndGlobal
